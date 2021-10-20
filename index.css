@@ -1,0 +1,45 @@
+button{
+    background-color: transparent;
+    border:none;
+    color:white;
+}
+body {
+    margin: 0px;
+}
+
+select{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+option{
+    color: black;
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 13px;
+    margin: 0px;
+}
+
+.numeroydias{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: coral;
+}
+
+.numero{
+    margin: 0px;
+}
+
+.horario{
+    margin: 0px;
+}
+
+.buscador{
+
+}
