@@ -1,3 +1,9 @@
+img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 button{
     background-color: transparent;
     border:none;
@@ -29,7 +35,7 @@ option{
     padding: 15px;
     align-items: center;
     justify-content: space-between;
-    background-color: coral;
+    background-color: hotpink;
 }
 
 .numero{
@@ -42,4 +48,53 @@ option{
 
 .buscador{
 
+}
+.foto{
+    display: flex;
+    position: relative;
+    display: inline-block;
+    object-fit: contain;
+    width: 100%; height:100%;
+    margin-top: 0%;
+    margin-bottom: 2cm;
+}
+.tipos{
+    display: flex;
+    justify-content: center;
+    background-color: hotpink;
+    
+}
+
+.descripcion{
+    position: absolute;
+    top: 0%;
+    margin: 10%;
+    padding: 0%;
+
+}
+.primeraseccion {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCtlCMPmAPzh43T7XDQZbKqL5Q6Qgh39bRA&usqp=CAU"); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 200px;
+    min-height: 300px;
+}
+
+
+.primeraimagen{
+    position: absolute;
+    background-color: indianred;
+    top: 10px;
+    left: 10px;
+}
+
+.grupo1{
+    display: flex;
+    position: relative;
+    display: inline-block;
+    object-fit: contain;
 }
